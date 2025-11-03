@@ -1,0 +1,86 @@
+/* App.css - Main Application Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.app-wrapper {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.app-title {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.app-subtitle {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.info-box {
+  background: #f5f5f5;
+  border-left: 4px solid #667eea;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.info-box h2 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.info-box ol {
+  margin-left: 20px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.info-box li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .app-wrapper {
+    padding: 30px 20px;
+  }
+
+  .app-title {
+    font-size: 24px;
+  }
+
+  .app-subtitle {
+    font-size: 13px;
+  }
+}
